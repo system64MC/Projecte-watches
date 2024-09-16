@@ -13,6 +13,7 @@ import moze_intel.projecte.gameObjs.PETags;
 import moze_intel.projecte.gameObjs.PETags.BlockEntities;
 import moze_intel.projecte.gameObjs.items.IBarHelper;
 import moze_intel.projecte.gameObjs.items.rings.PEToggleItem;
+import moze_intel.projecte.gameObjs.items.rings.TimeWatch;
 import moze_intel.projecte.utils.Constants;
 import moze_intel.projecte.utils.WorldHelper;
 import moze_intel.projecte.utils.text.ILangEntry;
@@ -45,7 +46,7 @@ import net.system64.examplemod.mixin.TimeWatchMethods;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class TimeWatchMK1 extends PEToggleItem implements IPedestalItem, IItemCharge, IBarHelper {
+public class TimeWatchMK1 extends TimeWatch implements IPedestalItem, IItemCharge, IBarHelper {
 
     public TimeWatchMK1(Properties props) {
         super(props);
@@ -180,7 +181,8 @@ public class TimeWatchMK1 extends PEToggleItem implements IPedestalItem, IItemCh
             AABB bBox = pedestal.getEffectBounds();
             if (ProjectEConfig.server.effects.timePedBonus.get() > 0) {
                 // speedUpBlockEntities(level, ProjectEConfig.server.effects.timePedBonus.get() * 10, bBox);
-                ((TimeWatchMethods) this).speedUpBlockEntities(level, ProjectEConfig.server.effects.timePedBonus.get() * 10, bBox);
+                TimeWatch tw = this;
+                ((TimeWatchMethods) tw).invokeSpeedUpBlockEntities(level, ProjectEConfig.server.effects.timePedBonus.get() * 10, bBox);
                 speedUpRandomTicks(level, ProjectEConfig.server.effects.timePedBonus.get() * 10, bBox);
             }
             if (ProjectEConfig.server.effects.timePedMobSlowness.get() < 1.0F) {

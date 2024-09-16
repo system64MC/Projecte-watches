@@ -87,10 +87,12 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            property 'mixin.config', 'src/main/resources/mixins.json'
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
+            property 'mixin.config', 'src/main/resources/mixins.json'
             args '--nogui'
         }
 
@@ -115,6 +117,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 mixin {
+    // add sourceSets.main, "examplemod.mixins.json"
     add sourceSets.main, "examplemod.mixins.json"
 }
 repositories {
