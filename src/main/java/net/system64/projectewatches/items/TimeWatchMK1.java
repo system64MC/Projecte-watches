@@ -1,4 +1,4 @@
-package net.system64.examplemod.items;
+package net.system64.projectewatches.items;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,6 @@ import moze_intel.projecte.config.ProjectEConfig;
 import moze_intel.projecte.gameObjs.PETags;
 import moze_intel.projecte.gameObjs.PETags.BlockEntities;
 import moze_intel.projecte.gameObjs.items.IBarHelper;
-import moze_intel.projecte.gameObjs.items.rings.PEToggleItem;
 import moze_intel.projecte.gameObjs.items.rings.TimeWatch;
 import moze_intel.projecte.utils.Constants;
 import moze_intel.projecte.utils.WorldHelper;
@@ -42,7 +41,7 @@ import net.minecraft.world.level.chunk.LevelChunk.BoundTickingBlockEntity;
 import net.minecraft.world.level.chunk.LevelChunk.RebindableTickingBlockEntityWrapper;
 import net.minecraft.world.phys.AABB;
 import net.minecraftforge.common.IPlantable;
-import net.system64.examplemod.mixin.TimeWatchMethods;
+import net.system64.projectewatches.mixin.TimeWatchMethods;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

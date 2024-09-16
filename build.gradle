@@ -87,12 +87,12 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
-            property 'mixin.config', 'src/main/resources/mixins.json'
+            property 'mixin.config', 'src/main/resources/timewatchesmixins.json'
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
-            property 'mixin.config', 'src/main/resources/mixins.json'
+            property 'mixin.config', 'src/main/resources/timewatchesmixins.json'
             args '--nogui'
         }
 
@@ -118,7 +118,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 mixin {
     // add sourceSets.main, "examplemod.mixins.json"
-    add sourceSets.main, "examplemod.mixins.json"
+    add sourceSets.main, "projectewatches.timewatchesmixins.json"
 }
 repositories {
     // Put repositories for dependencies here
