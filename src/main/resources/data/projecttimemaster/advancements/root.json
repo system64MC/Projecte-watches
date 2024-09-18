@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "projecttimemaster:time_watch_mk8"
+    },
+    "title": {
+      "translate": "advancement.projecttimemaster.root.title"
+    },
+    "description": {
+      "translate": "advancement.projecttimemaster.root.description"
+    },
+    "background": "projecte:textures/block/red_matter_block.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

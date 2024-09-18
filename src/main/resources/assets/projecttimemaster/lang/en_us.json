@@ -1,0 +1,39 @@
+{
+  "item.projecttimemaster.time_watch_mk2": "Watch of Flowing Time MK2",
+  "item.projecttimemaster.time_watch_mk3": "Watch of Flowing Time MK3",
+  "item.projecttimemaster.time_watch_mk4": "Watch of Flowing Time MK4",
+  "item.projecttimemaster.time_watch_mk5": "Watch of Flowing Time MK5",
+  "item.projecttimemaster.time_watch_mk6": "Watch of Flowing Time MK6",
+  "item.projecttimemaster.time_watch_mk7": "Watch of Flowing Time MK7",
+  "item.projecttimemaster.time_watch_mk8": "Watch of Flowing Time MK8",
+
+  "creativetab.projecttimemaster_tab": "Project Time Master",
+
+
+  "advancement.projecttimemaster.root.title": "Project Time Master",
+  "advancement.projecttimemaster.root.description": "Your journey to become the Master of Time begins here!",
+
+  "advancement.projecttimemaster.watch_mk1.title": "Master of Time?",
+  "advancement.projecttimemaster.watch_mk1.description": "Your first Watch of Flowing Time!",
+
+  "advancement.projecttimemaster.watch_mk2.title": "Za Warudo!",
+  "advancement.projecttimemaster.watch_mk2.description": "Obtain the Watch of Flowing Time MK2!",
+
+  "advancement.projecttimemaster.watch_mk3.title": "More Power!",
+  "advancement.projecttimemaster.watch_mk3.description": "The third tier of this powerful tool!",
+
+  "advancement.projecttimemaster.watch_mk4.title": "4 Dimensional God(dess) of Time?",
+  "advancement.projecttimemaster.watch_mk4.description": "You know that the 4th Dimension is Time, right?",
+
+  "advancement.projecttimemaster.watch_mk5.title": "RIP your TPS!",
+  "advancement.projecttimemaster.watch_mk5.description": "You sure love lags!",
+
+  "advancement.projecttimemaster.watch_mk6.title": "Get a life!",
+  "advancement.projecttimemaster.watch_mk6.description": "You should go outside. You played this game too much...",
+
+  "advancement.projecttimemaster.watch_mk7.title": "Just stop!",
+  "advancement.projecttimemaster.watch_mk7.description": "If you continue to push Time to its limits, you might no-clip out of reality!",
+
+  "advancement.projecttimemaster.watch_mk8.title": "The Maid and the Pocket Watch of Blood",
+  "advancement.projecttimemaster.watch_mk8.description": "She awaits you in the Scarlet Devil Mansion. I warned you!"
+}

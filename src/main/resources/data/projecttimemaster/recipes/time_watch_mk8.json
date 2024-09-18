@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "projecte:klein_star_omega"
+    },
+    "B": {
+      "item": "projecttimemaster:time_watch_mk7"
+    },
+    "C": {
+      "item": "projecte:philosophers_stone"
+    }
+  },
+  "result": {
+    "item": "projecttimemaster:time_watch_mk8",
+    "count": 1
+  }
+}

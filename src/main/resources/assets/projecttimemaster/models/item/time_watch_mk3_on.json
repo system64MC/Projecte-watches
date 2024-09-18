@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "projecttimemaster:item/time_watch_mk3_on"
+  }
+}

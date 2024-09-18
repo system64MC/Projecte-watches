@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.system64.projecttimemaster.mixin",
+  "refmap": "projecttimemaster.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TimeWatchMethods"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

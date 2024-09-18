@@ -1,0 +1,38 @@
+{
+  "parent": "projecttimemaster:root",
+  "criteria": {
+    "obtain_watch_mk1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "projecte:watch_of_flowing_time"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.projecttimemaster.watch_mk1.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "projecte:watch_of_flowing_time"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.projecttimemaster.watch_mk1.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_watch_mk1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

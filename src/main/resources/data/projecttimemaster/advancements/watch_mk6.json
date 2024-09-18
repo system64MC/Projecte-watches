@@ -1,0 +1,38 @@
+{
+  "parent": "projecttimemaster:watch_mk5",
+  "criteria": {
+    "obtain_watch_mk6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "projecttimemaster:time_watch_mk6"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.projecttimemaster.watch_mk6.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "projecttimemaster:time_watch_mk6"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.projecttimemaster.watch_mk6.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_watch_mk6"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
